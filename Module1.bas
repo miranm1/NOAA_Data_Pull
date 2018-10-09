@@ -22,8 +22,8 @@ Public Sub ReadNoaaPrecip()
         ' datatype: PRCP = Precipitation
         
         webServiceURL = "https://www.ncdc.noaa.gov/cdo-web/api/v2/data?stationid=" & _
-            ActiveCell.Offset(0, 1).Value & "&datasetid=GSOM&datatypeid=PRCP&startdate=" & _
-            Format(Range("B3").Value, "yyyy-dd-mm") & "&enddate=" & Format(Range("B4").Value, "yyyy-dd-mm") & "&limit=1000"
+            ActiveCell.Offset(0, 1).Value & "&datasetid=GHCND&datatypeid=PRCP&startdate=" & _
+            Format(Range("B3").Value, "yyyy-mm-dd") & "&enddate=" & Format(Range("B4").Value, "yyyy-mm-dd") & "&limit=1000"
             
         Set http = CreateObject("msxml2.xmlhttp")
             http.Open "GET", webServiceURL, False
