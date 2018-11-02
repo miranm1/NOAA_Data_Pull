@@ -1,5 +1,6 @@
 # NOAA_Web_Scrapper
 This program uses the API from National Oceanic and Atmospheric Administration to gather weather station data.  It specificlly grabs a daily precipitation values from a  start date to end date. To use the program simply put in the dates for start and end date in the cells B3 and B4. Finally just press the button and wait for the spread sheet to update with values going down the columns.  Precipitation values will go down under the labeled weather station name and print its corresponding date to the left. 
+
 ![alt text](https://github.com/miranm1/NOAA_Web_Scrapper/blob/master/noaa1.PNG)
 ![alt text](https://github.com/miranm1/NOAA_Web_Scrapper/blob/master/noaa2.PNG)
 ![alt text](https://github.com/miranm1/NOAA_Web_Scrapper/blob/master/noaa3.PNG)
